@@ -61,24 +61,22 @@ Finally, run `terraform apply`
 
 ## Execution
 
-### Init
+### terraform init 
 
 The first command to run for a new configuration is  `terraform init`, which initializes various local settings and data that will be used by subsequent commands. This command will also automatically download and install any provider defined in the configuration.
 
-### Plan
+### terraform plan
 
 The  `terraform plan`  command is used to create an execution plan. Terraform performs a refresh, unless explicitly disabled, and then determines what actions are necessary to achieve the desired state specified in the configuration files.
 
 This command is a convenient way to check whether the execution plan for a set of changes matches your expectations without making any changes to real resources or to the state.
 
-### Apply
+### terraform apply 
 
 The `terraform apply` command is used to **apply the changes required to reach the desired state of the configuration**.
 
-### Destroy
-
-If you're using Terraform to spin up multiple environments such as lab, dev, or test environments, then destroying is a useful action.
+### terraform destroy 
 
 Resources can be destroyed using the `terraform destroy` command, which is similar to `terraform apply`, but it behaves as if all of the resources have been removed from the configuration.
 
-**Enjoy!** :)
+
