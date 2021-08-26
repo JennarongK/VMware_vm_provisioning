@@ -54,9 +54,9 @@ module "example-server-linuxvm" {
 
 ```
 
-Next, run 'terraform init' and run 'terraform plan'
+Next, run `terraform init` and run `terraform plan`
 
-Finally, run 'terraform apply'
+Finally, run `terraform apply`
 
 
 ## Execution
