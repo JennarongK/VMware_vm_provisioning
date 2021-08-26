@@ -1,6 +1,6 @@
 # VMware_vm_provisioning Module
 
-For Virtual Machine Provisioning with (Linux/Windows) customization. Based on Terraform v1.0.5. and up
+For Virtual Machine Provisioning with (Linux) customization. Based on Terraform v1.0.5. and up
 
 ## Getting started
 
